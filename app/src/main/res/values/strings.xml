@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">"MyNavigationDrawer"</string>
+
+    <!-- menu_drawer.xml -->
+    <string name="news">"News"</string>
+    <string name="configuration">"Configuration"</string>
+    <string name="profile">"Profile"</string>
+    <string name="setting">"Setting"</string>
+
+    <!-- MainActivity.java -->
+    <string name="navigation_drawer_open">"Open navigation drawer"</string>
+    <string name="navigation_drawer_close">"Close navigation drawer"</string>
+
+</resources>

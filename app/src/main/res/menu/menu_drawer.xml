@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_drawer_news"
+            android:title="@string/news"
+            android:icon="@drawable/baseline_dashboard_black_24dp"/>
+
+    </group>
+
+    <item
+        android:title="@string/configuration">
+
+        <menu>
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/menu_drawer_profile"
+                    android:title="@string/profile"
+                    android:icon="@drawable/baseline_account_box_black_24dp"/>
+
+                <item
+                    android:id="@+id/menu_drawer_setting"
+                    android:title="@string/setting"
+                    android:icon="@drawable/baseline_settings_applications_black_24dp"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
